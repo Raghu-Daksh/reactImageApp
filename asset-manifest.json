@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactImageApp/static/css/main.0c611880.css",
+    "main.js": "/reactImageApp/static/js/main.e8319687.js",
+    "static/media/header_img.webp": "/reactImageApp/static/media/header_img.2da33143364b96be61eb.webp",
+    "index.html": "/reactImageApp/index.html",
+    "main.0c611880.css.map": "/reactImageApp/static/css/main.0c611880.css.map",
+    "main.e8319687.js.map": "/reactImageApp/static/js/main.e8319687.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c611880.css",
+    "static/js/main.e8319687.js"
+  ]
+}
