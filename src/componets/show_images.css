@@ -1,0 +1,54 @@
+.card-list {
+  column-count: 3;
+
+  width: 90%;
+  margin: 0 auto;
+}
+.card-list img {
+  width: 100%;
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  box-shadow: 0 0 10px black;
+  overflow: hidden;
+}
+.card-response {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 2rem 1rem;
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+.card-response span{
+
+  display: flex;
+  align-items: center;
+}
+ion-icon{
+ color: red;
+}
+.card:hover .card-response{
+    transform: translateY(0);
+}
+@media screen and (max-width: 768px ){
+  .card-list{
+    column-count: 2;
+    column-gap: 2rem;
+
+  }
+}
+@media screen and (max-width: 600px ){
+  .card-list{
+    column-count: 1;
+    column-gap: 2rem;
+
+  }
+}
